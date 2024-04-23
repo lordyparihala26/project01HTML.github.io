@@ -1,40 +1,80 @@
 <html>
     <head>
-        <title>ABOUT ME</title>
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>WEB PRIBADI</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <h1 href="#" class="logo">ODYSIUS</h1>
+            <nav>
+                <ul>
+                    <!-- fitur dibawah belum digunakan -->
+                    <!-- <li>
+                        <a href="#">TENTANG</a>
+                    </li> -->
+                    <li>
+                        <a href="#blog">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="https://linktr.ee/lordyparihala">KONTAK</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="window.location.href='https://www.instagram.com/lordyparihala_/'">FOLLOW ME</button>
+        </header>
         <div class="container">
-    
-        <!-- navigation bar -->
-        <div class="container-navbar">
-            <ul class="ul-navbar">
-                <li class="li-navbar">
-                    <a href="index.html" class="a-navbar">HOME</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="about.html" class="a-navbar">ABOUT ME</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
-                </li>
-            </ul>
+            <div class="intro">
+                <p class="title">HELLO, LORDY HERE!</p>
+                <p class="description">WELCOME TO MY PERSONAL PAGE</p>
+                <img src="assets/foto/Foto Pribadi_Lordy Lawrence Parihala.jpg" alt="Foto Pribadi_Lordy Lawrence Parihala" class="img-foto"/>
+            </div>
         </div>
-        <!-- navigation bar END -->
-        
-        <!-- CONTENT 1 -->
-        <div class="container-content">
-            <a class="a-content">
-                <p>Tentang SAYA</p>
-            </a>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">SAYA SEORANG MAHASISWA TEKNIK INFORMATIKA</p>
+                <p class="description">UNIVERSITAS SAM RATULANGI MANADO</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="window.location.href='https://github.com/lordyparihala26/project01HTML.github.io'">MARI KERJA SAMA</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="gallery-container">
+                    <div class="gallery-1">
+                        <p class="foto"></p>
+                        <img src="assets/foto/Foto Profil.jpg" alt="Foto Profil" />
+                    </div>
+                    <div class="gallery-1">
+                        <p class="foto2"></p>
+                        <img src="assets/foto/WhatsApp Image 2024-03-25 at 13.47.52_f2a6423a.jpg" alt="WhatsApp Image 2024-03-25 at 13.47.52_f2a6423a" />
+                    </div>
+                    <div class="gallery-1">
+                        <p class="foto"></p>
+                        <img src="assets/foto/Foto Pribadi_Lordy Lawrence Parihala.jpg" alt="Foto Pribadi_Lordy Lawrence Parihala" />
+                    </div>
+                </div>
+                <div class="card" id="blog">
+                    <div class="card-item">
+                        <p class="card-title" onclick="window.location.href='https://www.cnnindonesia.com/internasional/20240423095746-120-1089316/seberapa-besar-kekuatan-senjata-nuklir-iran'">
+                            Seberapa Besar Kekuatan Nuklir Iran</p>
+                        <p class="card-desc">Berisi minimum 3 konten/artikel bebas, Seni, olahraga atau lainnya. </p>
+                    </div>
+                    <div class="card-item">
+                        <p class="card-title">Ahli Temukan Lubang Hitam Terbesar Kedua Terbesar Bima Sakti, 33 kali Matahari</p>
+                        <p class="card-desc">Berisi minimum 3 konten/artikel bebas, bisa berupa artikel-artikel tentang teknologi, seni, olahraga atau lainnya. </p>
+                    </div>
+                    <div class="card-item">
+                        <p class="card-title">blog 3</p>
+                        <p class="card-desc">Berisi minimum 3 konten/artikel bebas, bisa berupa artikel-artikel tentang teknologi, seni, olahraga atau lainnya. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- CONTENT 1 END -->
-        
-        <!-- FOOTER -->
-        <div class="container-footer">
-            <h1 class="h1-footer">Website Ini dibuat sepenuh hati 😊</h1>
-        </div>
-        <!-- FOOTER END -->
-        <div>
+        <footer>
+            <p class="title">&copy; Lordy Parihala Website 2024</p>
+        </footer>
     </body>
+
 </html>
